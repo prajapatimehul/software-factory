@@ -1,0 +1,3 @@
+id	applies	regex	action	entries	rule
+git-add-all	bash	git add (?:-A|--all|\.)(?:\s|$)	deny-once		git add by path (STATE.md tasks/ ledger/ ...). A blanket add also takes another session's untracked files into the commit.
+stderr-hidden-count	bash	2>/dev/null[^|]*\|\s*(?:wc -l|grep -c|head -n? ?1|tail -n? ?1)	note		stderr is hidden here: when the command fails the count is 0 and reads as "absent". Run it once without 2>/dev/null, or with a must-match control, before writing none / absent / 0.

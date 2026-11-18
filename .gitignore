@@ -1,0 +1,20 @@
+# Claude Code runtime state
+.claude/settings.local.json
+.claude/worktrees/
+.claude/checkpoints/
+.claude/scheduled_tasks.lock
+.claude/scheduled_tasks.json
+.claude/state/
+CLAUDE.local.md
+
+# never commit
+.env
+.env.*
+*secret*
+*credential*
+*.pem
+*.key
+
+.DS_Store
+__pycache__/
+*.pyc
