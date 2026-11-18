@@ -117,7 +117,7 @@ JSON back, so `gws` works as it is and any other tool needs a small wrapper (see
 `factory.conf`).
 
 ```bash
-git clone https://github.com/eagerminds-ai/software-factory.git acme-ops && cd acme-ops
+git clone https://github.com/prajapatimehul/software-factory.git acme-ops && cd acme-ops
 git remote rename origin template
 gh repo create acme-ops --private --source . --remote origin --push   # a private copy per client
 $EDITOR factory.conf                                    # client, repos, contacts, markers

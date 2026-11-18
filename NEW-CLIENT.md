@@ -9,7 +9,7 @@ GitHub does not let a fork of a public repo be made private, so "fork" here mean
 copy that keeps the template as a second remote:
 
 ```bash
-git clone https://github.com/eagerminds-ai/software-factory.git <client-slug>-ops && cd <client-slug>-ops
+git clone https://github.com/prajapatimehul/software-factory.git <client-slug>-ops && cd <client-slug>-ops
 git remote rename origin template
 gh repo create <client-slug>-ops --private --source . --remote origin --push
 ```
